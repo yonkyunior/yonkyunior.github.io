@@ -7,15 +7,15 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            BlackDoc
-tagline:          Black Theme for Jekyll
-description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
+title:            YONK
+tagline:          being techie isn't enough
+description:      "Memories can fade"
 url:              https://github.com/karloespiritu/blackdoc
 baseurl:          /
 
 author:
-  name:           'Karlo Espiritu'
-  url:            https://twitter.com/karloespiritu
+  name:           'YONK'
+  url:            https://twitter.com/yonkyunior
 
 paginate:         5
 
