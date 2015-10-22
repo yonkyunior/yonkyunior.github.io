@@ -7,20 +7,58 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            BlackDoc
-tagline:          Black Theme for Jekyll
-description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
+title:            YONK
+tagline:          being techie isn't enough
+description:      "Memories can fade"
 url:              https://github.com/karloespiritu/blackdoc
 baseurl:          /
 
 author:
-  name:           'Karlo Espiritu'
-  url:            https://twitter.com/karloespiritu
+  name:           'YONK'
+  url:            https://twitter.com/yonkyunior
 
 paginate:         5
 
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble: yonkyunior
+  email: yonk_yunior@yahoo.com
+  facebook: yuniorusop
+  flickr: yonkyunior
+  github: barryclark/yonkyunior
+  instagram: yonkyunior
+  linkedin: yuniorusop
+  pinterest: yonkyunior
+  rss: dont # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter: yonkyunior
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: /yonkyunior # channel/<your_long_string> or user/<user-name>
+  googleplus: u/0/+yuniorusop # anything in your profile username that comes after plus.google.com/
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: yonk
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
 # Custom vars
 version:          1.0.0
 
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+
 github:
   repo:           https://github.com/karloespiritu/blackdoc
+
+  # Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
