@@ -61,8 +61,3 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
-<<<<<<< HEAD
-    - CNAME
-=======
-    - CNAME
->>>>>>> origin/master
